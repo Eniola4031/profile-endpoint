@@ -77,13 +77,13 @@ app.get('/me', async (req, res) => {
 });
 
 // --- Simple Root Endpoint ---
-app.get('/', (req, res) => {
-    res.json({
-        "message": "Welcome to the Dynamic Profile API (Node.js/Express).",
-        "instructions": "Access the required endpoint for the profile and cat fact data.",
-        "endpoint": "/me"
-    });
-});
+// app.get('/', (req, res) => {
+//     res.json({
+//         "message": "Welcome to the Dynamic Profile API (Node.js/Express).",
+//         "instructions": "Access the required endpoint for the profile and cat fact data.",
+//         "endpoint": "/me"
+//     });
+// });
 
 // --- Server Startup ---
 app.listen(PORT, () => {
